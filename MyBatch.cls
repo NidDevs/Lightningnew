@@ -14,6 +14,6 @@ global class MyBatch implements Database.Batchable<sobject> {
         update act;
     }
     public void finish(Database.BatchableContext bc){
-        
+       
     }
 }
