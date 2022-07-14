@@ -3,6 +3,7 @@ public with sharing class ContactController {
     public static List<Contact> getContacts() {
      
       throw new AuraHandledException('Forced error');
+      system.debug();
       
     }
 }
